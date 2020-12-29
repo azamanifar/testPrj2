@@ -9,6 +9,7 @@ public class Triangle {
         if(s1==s2 && s2==s3)
             return Tri.MOTEVAZi;
         return Tri.GHEYREIN;
+		return Tri;
     }
 }
 enum Tri
