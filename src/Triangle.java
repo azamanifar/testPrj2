@@ -6,7 +6,7 @@ public class Triangle {
             return Tri.INVALID;
         if(s1==s3 || s1==s2 || s2==s3)
             return Tri.MOTESAVI;
-        if(s1==s2 && s2==s3)
+        if(s1>s3)
             return Tri.MOTEVAZi;
         return Tri.GHEYREIN;
 		return Tri;
